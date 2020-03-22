@@ -6,7 +6,7 @@ const data = rawData.map((_, index) => ({
   confirmedCases: _.confirmedCases ? Number(_.confirmedCases .replace(',', '')) : undefined,
   socialDistancingModel: Number(_.socialDistancingModel.replace(',', '')),
   generalModel: Number(_.generalModel.replace(',', '')),
-  italy: _.italy ? Number(_.italy .replace(',', '')) : undefined,
+  italyNormalized: _.italy ? Number(_.italy .replace(',', '')) / 8.5 : undefined,
 }));
 
 export default data;
@@ -22,7 +22,7 @@ export const historicalNotes = {
   date: {
     '2020/03/14': 'Proglašeno vanredno stanje',
     '2020/03/17': 'Uveden policijski čas (od 8h do 20h)',
-    '2020/03/21': 'Policijski čas (od 5h do 17h)',
+    '2020/03/21': 'Policijski čas (od 5h do 17h), zatvoreni ugostiteljski objekti i javni prevoz u Beogradu.',
   },
   socialDistancingModel: {
     '4200.82': '~ Očekivani “kraj” epidemije'

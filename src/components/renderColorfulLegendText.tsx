@@ -1,7 +1,7 @@
-import React from "react";
-import {LegendPayload} from "recharts";
+import React from 'react';
+import {LegendPayload} from 'recharts';
 
-const getLegendLabel = (key: string) => {
+export const getLegendLabel = (key: string) => {
   switch (key) {
     case 'confirmedCases':
       return 'Potvrđeni slučajevi';
@@ -9,8 +9,10 @@ const getLegendLabel = (key: string) => {
       return 'Social distancing model';
     case 'generalModel':
       return 'Generalni model';
-    case 'italy':
-      return 'Italija (rast)';
+    case 'italyNormalized':
+      return 'Italija (rast, normalizovan)';
+    case 'italyAbsolute':
+      return 'Italija (rast, apsolutne vrednosti)';
     default:
       return '';
   }
@@ -18,7 +20,7 @@ const getLegendLabel = (key: string) => {
 
 const renderColorfulLegendText = (value?: LegendPayload['value'], entry?: LegendPayload) => {
   const { color } = (entry || {});
-  return <span style={{ color }}>{getLegendLabel(value)}</span>;
+  return <span style={{ color }}>{value}</span>;
 };
 
 export default renderColorfulLegendText;

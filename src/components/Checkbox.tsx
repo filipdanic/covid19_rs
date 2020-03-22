@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export default ({
   checked,
@@ -13,7 +13,7 @@ export default ({
 }) =>
   <label>
     <input
-      type="checkbox"
+      type='checkbox'
       name={name}
       checked={checked}
       onChange={onChange}
