@@ -21,8 +21,8 @@ export const columns = [
 export const historicalNotes = {
   date: {
     '2020/03/14': 'Proglašeno vanredno stanje',
-    '2020/03/17': 'Uveden policijski čas (od 8h do 20h)',
-    '2020/03/21': 'Policijski čas (od 5h do 17h), zatvoreni ugostiteljski objekti i javni prevoz u Beogradu.',
+    '2020/03/17': 'Uveden policijski čas (od 20h do 5h)',
+    '2020/03/21': 'Policijski čas (od 17h do 5h), zatvoreni ugostiteljski objekti i javni prevoz u Beogradu.',
   },
   socialDistancingModel: {
     '4200.82': '~ Očekivani “kraj” epidemije'
