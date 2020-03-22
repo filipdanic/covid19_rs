@@ -2,9 +2,9 @@ import React from 'react';
 import Checkbox from './Checkbox';
 import { getLegendLabel } from './renderColorfulLegendText'
 
-type optionKey = 'confirmedCases' | 'socialDistancingModel' | 'generalModel' | 'italyNormalized' | 'italyAbsolute';
+type ModelOptionKey = 'confirmedCases' | 'socialDistancingModel' | 'generalModel' | 'italyNormalized' | 'italyAbsolute';
 
-const options: Array<optionKey> = [
+const modelOptions: Array<ModelOptionKey> = [
   'confirmedCases',
   'socialDistancingModel',
   'generalModel',
@@ -12,29 +12,45 @@ const options: Array<optionKey> = [
   'italyAbsolute'
 ];
 
+const rangeOptions = [15, 20, 30, 40, 50, 60, 65];
+
 export default ({
-  selected,
-  onChange,
+  selectedModel,
+  selectedRange,
+  onModelChange,
+  onRangeChange,
 }: {
-  selected: {
+  selectedModel: {
     confirmedCases: boolean,
     socialDistancingModel: boolean,
     generalModel: boolean,
     italyNormalized: boolean,
     italyAbsolute: boolean,
   },
-  onChange: (event: React.ChangeEvent<HTMLInputElement>) => void,
+  selectedRange: number,
+  onModelChange: (event: React.ChangeEvent<HTMLInputElement>) => void,
+  onRangeChange: (event: React.ChangeEvent<HTMLSelectElement>) => void,
 }) =>
   <div className='optionBar'>
     <p>Prikaz, period 2020/03/08 – 2020/05/02</p>
 
-    {options.map((option: optionKey) =>
+    {modelOptions.map((option: ModelOptionKey) =>
       <Checkbox
         key={option}
         name={option}
-        checked={selected[option]}
+        checked={selectedModel[option]}
         label={getLegendLabel(option)}
-        onChange={onChange}
+        onChange={onModelChange}
       />
     )}
+    <div className='optionBar--selectField'>
+      <label htmlFor='selectedRange'>Broj dana u prikazu:</label>
+      <select name='selectedRange' id='selectedRange' onChange={onRangeChange}>
+        {rangeOptions.map(option =>
+          <option key={option} value={option}>
+            {option}
+          </option>
+        )}
+      </select>
+    </div>
   </div>;

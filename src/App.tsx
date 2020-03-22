@@ -8,7 +8,7 @@ import { getLegendLabel } from './components/renderColorfulLegendText'
 import IntroText from './components/IntroText';
 
 function App() {
-  const [ selected, setSelected ] = useState({
+  const [ selectedModel, setSelectedModel ] = useState({
     confirmedCases: true,
     socialDistancingModel: true,
     generalModel: true,
@@ -16,13 +16,22 @@ function App() {
     italyAbsolute: false,
   });
 
-  const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const [ selectedRange, setSelectedRange ] = useState(15);
+
+  const handleModelChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, checked } = e.target;
-    setSelected(s => ({
+    setSelectedModel(s => ({
       ...s,
       [name]: checked,
     }))
   };
+
+  const handleRangeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const { value } = e.target;
+    setSelectedRange(Number(value));
+  };
+
+  const dataSet = data.slice(0, selectedRange);
 
   return (
     <div className='mainContent'>
@@ -40,12 +49,18 @@ function App() {
       </div>
 
       <h3>Graf slučajeva</h3>
-      <OptionBar selected={selected} onChange={onChange} />
+      <OptionBar
+        selectedModel={selectedModel}
+        selectedRange={selectedRange}
+        onModelChange={handleModelChange}
+        onRangeChange={handleRangeChange}
+      />
+
       <ResponsiveContainer width='95%' height={400}>
         <LineChart
           width={Math.min(window.innerWidth - 20, 840)}
           height={Math.min(window.innerWidth - 20, 840) * 0.6}
-          data={data}
+          data={dataSet}
           margin={{
             top: 5, right: 30, left: 20, bottom: 5,
           }}
@@ -55,35 +70,35 @@ function App() {
           <YAxis />
           <Tooltip />
           <Legend formatter={renderColorfulLegendText} />
-          {selected.confirmedCases &&
+          {selectedModel.confirmedCases &&
             <Line
               type='monotone'
               name={getLegendLabel('confirmedCases')}
               dataKey='confirmedCases'
               stroke='#cb4335' strokeWidth={6} dot={false}
             />}
-          {selected.socialDistancingModel &&
+          {selectedModel.socialDistancingModel &&
             <Line
               type='monotone'
               name={getLegendLabel('socialDistancingModel')}
               dataKey='socialDistancingModel'
               stroke='#212f3c' strokeWidth={2} dot={false} strokeDasharray='5 5'
             />}
-          {selected.generalModel &&
+          {selectedModel.generalModel &&
             <Line
               type='monotone'
               name={getLegendLabel('generalModel')}
               dataKey='generalModel'
               stroke='#9b59b6' strokeWidth={2} dot={false} strokeDasharray='5 5'
             />}
-          {selected.italyNormalized &&
+          {selectedModel.italyNormalized &&
             <Line
               type='monotone'
               name={getLegendLabel('italyNormalized')}
               dataKey='italyNormalized'
               stroke='#27ae60' strokeWidth={2} dot={false} strokeDasharray='5 5'
             />}
-          {selected.italyAbsolute &&
+          {selectedModel.italyAbsolute &&
             <Line
               type='monotone'
               name={getLegendLabel('italyAbsolute')}

@@ -11,8 +11,9 @@ export default ({
   label: string,
   onChange: (event: React.ChangeEvent<HTMLInputElement>) => void,
 }) =>
-  <label>
+  <label htmlFor={name}>
     <input
+      id={name}
       type='checkbox'
       name={name}
       checked={checked}

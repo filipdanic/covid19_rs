@@ -25,6 +25,16 @@ h3 {
   margin-bottom: 12px;
 }
 
+.optionBar--selectField {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.optionBar--selectField select {
+  margin-left: 12px;
+  width: 100px;
+}
+
 .tableContainer {
   display: flex;
   overflow: scroll;
