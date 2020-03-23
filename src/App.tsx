@@ -16,7 +16,7 @@ function App() {
     italyAbsolute: false,
   });
 
-  const [ selectedRange, setSelectedRange ] = useState(15);
+  const [ selectedRange, setSelectedRange ] = useState(20);
 
   const handleModelChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, checked } = e.target;
