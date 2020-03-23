@@ -45,7 +45,12 @@ export default ({
     )}
     <div className='optionBar--selectField'>
       <label htmlFor='selectedRange'>Broj dana u prikazu:</label>
-      <select name='selectedRange' id='selectedRange' onChange={onRangeChange}>
+      <select
+        name='selectedRange'
+        id='selectedRange'
+        value={selectedRange}
+        onChange={onRangeChange}
+      >
         {rangeOptions.map(option =>
           <option key={option} value={option}>
             {option}
