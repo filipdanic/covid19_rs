@@ -1,7 +1,7 @@
 import React from 'react';
 import WarningAlert from './WarningAlert';
 
-const ConfirmedCases = 528;
+const ConfirmedCases = 659;
 
 export default () =>
   <React.Fragment>
