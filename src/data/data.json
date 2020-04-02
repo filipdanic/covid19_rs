@@ -201,8 +201,8 @@
   },
   {
     "date": "2020/04/02",
-
-    "increase": "",
+    "confirmedCases": "1171",
+    "increase": "9.48%",
     "socialDistancingModel": "1,139.86",
     "generalModel": "6,583.19",
     "italy": "24747"
