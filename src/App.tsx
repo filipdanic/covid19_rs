@@ -11,12 +11,12 @@ function App() {
   const [ selectedModel, setSelectedModel ] = useState({
     confirmedCases: true,
     socialDistancingModel: true,
-    generalModel: true,
-    italyNormalized: false,
+    generalModel: false,
+    italyNormalized: true,
     italyAbsolute: false,
   });
 
-  const [ selectedRange, setSelectedRange ] = useState(30);
+  const [ selectedRange, setSelectedRange ] = useState(40);
 
   const handleModelChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, checked } = e.target;
