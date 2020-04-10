@@ -263,8 +263,8 @@
   },
   {
     "date": "2020/04/10",
-
-    "increase": "",
+    "confirmedCases": "3105",
+    "increase": "7.67%",
     "socialDistancingModel": "2,843.37",
     "generalModel": "15,129.94"
   },
