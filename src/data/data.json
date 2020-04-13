@@ -284,8 +284,8 @@
   },
   {
     "date": "2020/04/13",
-
-    "increase": "",
+    "confirmedCases": "4154",
+    "increase": "12.61%",
     "socialDistancingModel": "3,483.25",
     "generalModel": "15,588.39"
   },
