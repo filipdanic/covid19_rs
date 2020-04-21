@@ -23,12 +23,14 @@ export const historicalNotes = {
     '2020/03/14': 'Proglašeno vanredno stanje',
     '2020/03/17': 'Uveden policijski čas (od 20h do 5h)',
     '2020/03/21': 'Policijski čas (od 17h do 5h), zatvoreni ugostiteljski objekti i javni prevoz u Beogradu.',
-    '2020/04/04': 'Uveden policijski čas od subote u 13h do ponedeljka (2020/04/06) u 5h'
+    '2020/04/04': 'Uveden policijski čas od subote u 13h do ponedeljka (2020/04/06) u 5h',
+    '2020/04/17': 'Uveden olicijski čas počevši od Velikog Petka u 17h sve do utorka (2020/04/21) u 5h.',
+    '2020/04/21': 'Najavljeno popuštanje mera.'
   },
   socialDistancingModel: {
-    '4200.82': '~ Očekivani “kraj” epidemije'
+    '4200.82': '~ Očekivani “kraj” epidemije u Srbiji. (Poznato sada da nije tačno.)'
   },
   generalModel: {
-    '18832.47': '~ Očekivani “kraj” epidemije'
+    '18832.47': '~ Očekivani “kraj” epidemije u Srbiji. (Na svu sreću nikada nismo pratili ovaj model, tako da ovaj datum ne znači ništa.)'
   }
 };

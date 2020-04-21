@@ -252,174 +252,199 @@
     "confirmedCases": "2666",
     "increase": "8.21%",
     "socialDistancingModel": "2,349.89",
-    "generalModel": "14,126.92"
+    "generalModel": "14,126.92",
+    "italy": "53578"
   },
   {
     "date": "2020/04/09",
     "confirmedCases": "2867",
     "increase": "7.01%",
     "socialDistancingModel": "2,584.88",
-    "generalModel": "14,833.27"
+    "generalModel": "14,833.27",
+    "italy": "59138"
   },
   {
     "date": "2020/04/10",
     "confirmedCases": "3105",
     "increase": "7.67%",
     "socialDistancingModel": "2,843.37",
-    "generalModel": "15,129.94"
+    "generalModel": "15,129.94",
+    "italy": "63927"
   },
   {
     "date": "2020/04/11",
     "confirmedCases": "3380",
     "increase": "8.14%",
     "socialDistancingModel": "3,042.41",
-    "generalModel": "15,281.24"
+    "generalModel": "15,281.24",
+    "italy": "69176"
   },
   {
     "date": "2020/04/12",
     "confirmedCases": "3630",
     "increase": "6.89%",
     "socialDistancingModel": "3,255.38",
-    "generalModel": "15,434.05"
+    "generalModel": "15,434.05",
+    "italy": "74386"
   },
   {
     "date": "2020/04/13",
     "confirmedCases": "4154",
     "increase": "12.61%",
     "socialDistancingModel": "3,483.25",
-    "generalModel": "15,588.39"
+    "generalModel": "15,588.39",
+    "italy": "80589"
   },
   {
     "date": "2020/04/14",
     "confirmedCases": "4465",
     "increase": "6.97%",
     "socialDistancingModel": "3,622.58",
-    "generalModel": "15,744.27"
+    "generalModel": "15,744.27",
+    "italy": "86498"
   },
   {
     "date": "2020/04/15",
     "confirmedCases": "4873",
     "increase": "8.37%",
     "socialDistancingModel": "3,767.49",
-    "generalModel": "15,901.71"
+    "generalModel": "15,901.71",
+    "italy": "92472"
   },
   {
     "date": "2020/04/16",
     "confirmedCases": "5318",
     "increase": "8.37%",
     "socialDistancingModel": "3,918.18",
-    "generalModel": "16,060.73"
+    "generalModel": "16,060.73",
+    "italy": "97689"
   },
   {
     "date": "2020/04/17",
     "confirmedCases": "5690",
     "increase": "6.54%",
     "socialDistancingModel": "3,957.37",
-    "generalModel": "16,221.34"
+    "generalModel": "16,221.34",
+    "italy": "101739"
   },
   {
     "date": "2020/04/18",
     "confirmedCases": "5994",
     "increase": "5.07%",
     "socialDistancingModel": "3,996.94",
-    "generalModel": "16,383.55"
+    "generalModel": "16,383.55",
+    "italy": "105792"
   },
   {
     "date": "2020/04/19",
     "confirmedCases": "6318",
     "increase": "5.13%",
     "socialDistancingModel": "4,036.91",
-    "generalModel": "16,547.39"
+    "generalModel": "16,547.39",
+    "italy": "110574"
   },
   {
     "date": "2020/04/20",
     "confirmedCases": "6630",
     "increase": "4.71%",
     "socialDistancingModel": "4,077.28",
-    "generalModel": "16,712.86"
+    "generalModel": "16,712.86",
+    "italy": "115242"
   },
   {
     "date": "2020/04/21",
     "confirmedCases": "6890",
     "increase": "3.77%",
     "socialDistancingModel": "4,118.05",
-    "generalModel": "16,879.99"
+    "generalModel": "16,879.99",
+    "italy": "119827"
   },
   {
     "date": "2020/04/22",
 
     "increase": "",
     "socialDistancingModel": "4,159.23",
-    "generalModel": "17,048.79"
+    "generalModel": "17,048.79",
+    "italy": "124632"
   },
   {
     "date": "2020/04/23",
 
     "increase": "",
     "socialDistancingModel": "4,200.82",
-    "generalModel": "17,219.28"
+    "generalModel": "17,219.28",
+    "italy": "128948"
   },
   {
     "date": "2020/04/24",
 
     "increase": "",
     "socialDistancingModel": "4,242.83",
-    "generalModel": "17,391.47"
+    "generalModel": "17,391.47",
+    "italy": "132547"
   },
   {
     "date": "2020/04/25",
 
     "increase": "",
     "socialDistancingModel": "4,242.83",
-    "generalModel": "17,565.39"
+    "generalModel": "17,565.39",
+    "italy": "135586"
   },
   {
     "date": "2020/04/26",
 
     "increase": "",
     "socialDistancingModel": "4,242.83",
-    "generalModel": "17,741.04"
+    "generalModel": "17,741.04",
+    "italy": "139422"
   },
   {
     "date": "2020/04/27",
 
     "increase": "",
     "socialDistancingModel": "4,242.83",
-    "generalModel": "17,918.45"
+    "generalModel": "17,918.45",
+    "italy": "143626"
   },
   {
     "date": "2020/04/28",
 
     "increase": "",
     "socialDistancingModel": "4,242.83",
-    "generalModel": "18,097.63"
+    "generalModel": "18,097.63",
+    "italy": "147577"
   },
   {
     "date": "2020/04/29",
 
     "increase": "",
     "socialDistancingModel": "4,242.83",
-    "generalModel": "18,278.61"
+    "generalModel": "18,278.61",
+    "italy": "152271"
   },
   {
     "date": "2020/04/30",
 
     "increase": "",
     "socialDistancingModel": "4,242.83",
-    "generalModel": "18,461.40"
+    "generalModel": "18,461.40",
+    "italy": "156363"
   },
   {
     "date": "2020/05/01",
 
     "increase": "",
     "socialDistancingModel": "4,242.83",
-    "generalModel": "18,646.01"
+    "generalModel": "18,646.01",
+    "italy": "159516"
   },
   {
     "date": "2020/05/02",
 
     "increase": "",
     "socialDistancingModel": "4,242.83",
-    "generalModel": "18,832.47"
+    "generalModel": "18,832.47",
+    "italy": "162488"
   }
 ]
