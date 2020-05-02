@@ -446,5 +446,149 @@
     "socialDistancingModel": "4,242.83",
     "generalModel": "18,832.47",
     "italy": "162488"
+  },
+  {
+    "date": "2020/05/03",
+
+    "increase": "",
+    "socialDistancingModel": "4,285.26",
+    "generalModel": "19,020.80",
+    "italy": "165155"
+  },
+  {
+    "date": "2020/05/04",
+
+    "increase": "",
+    "socialDistancingModel": "4,328.11",
+    "generalModel": "19,211.00",
+    "italy": "168941"
+  },
+  {
+    "date": "2020/05/05",
+
+    "increase": "",
+    "socialDistancingModel": "4,371.39",
+    "generalModel": "19,403.11",
+    "italy": "172434"
+  },
+  {
+    "date": "2020/05/06",
+
+    "increase": "",
+    "socialDistancingModel": "4,415.11",
+    "generalModel": "19,597.14",
+    "italy": "175925"
+  },
+  {
+    "date": "2020/05/07",
+
+    "increase": "",
+    "socialDistancingModel": "4,459.26",
+    "generalModel": "19,793.12",
+    "italy": "178972"
+  },
+  {
+    "date": "2020/05/08",
+
+    "increase": "",
+    "socialDistancingModel": "4,503.85",
+    "generalModel": "19,991.05",
+    "italy": "181228"
+  },
+  {
+    "date": "2020/05/09",
+
+    "increase": "",
+    "socialDistancingModel": "4,548.89",
+    "generalModel": "20,190.96",
+    "italy": "184957"
+  },
+  {
+    "date": "2020/05/10",
+
+    "increase": "",
+    "socialDistancingModel": "4,594.38",
+    "generalModel": "20,392.87",
+    "italy": "187327"
+  },
+  {
+    "date": "2020/05/11",
+
+    "increase": "",
+    "socialDistancingModel": "4,640.32",
+    "generalModel": "20,596.80",
+    "italy": "189973"
+  },
+  {
+    "date": "2020/05/12",
+
+    "increase": "",
+    "socialDistancingModel": "4,686.73",
+    "generalModel": "20,802.76",
+    "italy": "192994"
+  },
+  {
+    "date": "2020/05/13",
+
+    "increase": "",
+    "socialDistancingModel": "4,733.59",
+    "generalModel": "21,010.79",
+    "italy": "195351"
+  },
+  {
+    "date": "2020/05/14",
+
+    "increase": "",
+    "socialDistancingModel": "4,780.93",
+    "generalModel": "21,220.90",
+    "italy": "197675"
+  },
+  {
+    "date": "2020/05/15",
+
+    "increase": "",
+    "socialDistancingModel": "4,828.74",
+    "generalModel": "21,433.11",
+    "italy": "199414"
+  },
+  {
+    "date": "2020/05/16",
+
+    "increase": "",
+    "socialDistancingModel": "4,877.03",
+    "generalModel": "21,647.44",
+    "italy": "201505"
+  },
+  {
+    "date": "2020/05/17",
+
+    "increase": "",
+    "socialDistancingModel": "4,925.80",
+    "generalModel": "21,863.91",
+    "italy": "203591"
+  },
+  {
+    "date": "2020/05/18",
+
+    "increase": "",
+    "socialDistancingModel": "4,975.05",
+    "generalModel": "22,082.55",
+    "italy": "205463"
+  },
+  {
+    "date": "2020/05/19",
+
+    "increase": "",
+    "socialDistancingModel": "5,024.81",
+    "generalModel": "22,303.38",
+    "italy": "207428"
+  },
+  {
+    "date": "2020/05/20",
+
+    "increase": "",
+    "socialDistancingModel": "5,075.05",
+    "generalModel": "22,526.41",
+    "italy": ""
   }
 ]
