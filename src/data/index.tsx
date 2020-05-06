@@ -25,7 +25,10 @@ export const historicalNotes = {
     '2020/03/21': 'Policijski čas (od 17h do 5h), zatvoreni ugostiteljski objekti i javni prevoz u Beogradu.',
     '2020/04/04': 'Uveden policijski čas od subote u 13h do ponedeljka (2020/04/06) u 5h',
     '2020/04/17': 'Uveden olicijski čas počevši od Velikog Petka u 17h sve do utorka (2020/04/21) u 5h.',
-    '2020/04/21': 'Najavljeno popuštanje mera.'
+    '2020/04/21': 'Najavljeno popuštanje mera.',
+    '2020/05/02': 'Najavljeno dodatno popuštanje mera.',
+    '2020/05/06': 'Ukinuto vanredno stanje.',
+    '2020/05/07': 'Ukinuto policijski čas stanje.',
   },
   socialDistancingModel: {
     '4200.82': '~ Očekivani “kraj” epidemije u Srbiji. (Poznato sada da nije tačno.)'
