@@ -12,7 +12,7 @@ const modelOptions: Array<ModelOptionKey> = [
   'italyAbsolute'
 ];
 
-const rangeOptions = [15, 20, 30, 40, 50, 60, 65];
+const rangeOptions = [15, 30, 45, 60, 75, 85, 95];
 
 export default ({
   selectedModel,
