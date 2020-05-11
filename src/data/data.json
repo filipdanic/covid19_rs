@@ -513,8 +513,8 @@
   },
   {
     "date": "2020/05/11",
-
-    "increase": "",
+    "confirmedCases": "10176",
+    "increase": "0.61%",
     "socialDistancingModel": "4,640.32",
     "generalModel": "20,596.80",
     "italy": "189973"
