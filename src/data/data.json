@@ -553,16 +553,16 @@
   },
   {
     "date": "2020/05/16",
-
-    "increase": "",
+    "confirmedCases": "10496",
+    "increase": "0.55%",
     "socialDistancingModel": "4,877.03",
     "generalModel": "21,647.44",
     "italy": "201505"
   },
   {
     "date": "2020/05/17",
-
-    "increase": "",
+    "confirmedCases": "10610",
+    "increase": "1.07%",
     "socialDistancingModel": "4,925.80",
     "generalModel": "21,863.91",
     "italy": "203591"
