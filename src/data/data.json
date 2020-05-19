@@ -577,8 +577,8 @@
   },
   {
     "date": "2020/05/19",
-
-    "increase": "",
+    "confirmedCases": "10733",
+    "increase": "0.32%",
     "socialDistancingModel": "5,024.81",
     "generalModel": "22,303.38",
     "italy": "207428"
