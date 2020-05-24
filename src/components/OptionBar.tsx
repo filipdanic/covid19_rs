@@ -32,8 +32,6 @@ export default ({
   onRangeChange: (event: React.ChangeEvent<HTMLSelectElement>) => void,
 }) =>
   <div className='optionBar'>
-    <p>Prikaz, period 2020/03/08 – 2020/05/02</p>
-
     {modelOptions.map((option: ModelOptionKey) =>
       <Checkbox
         key={option}

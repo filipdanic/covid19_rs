@@ -1,11 +1,13 @@
 import React from 'react';
 import WarningAlert from './WarningAlert';
 
-const ConfirmedCases = '10.733';
-
 export default () =>
   <React.Fragment>
-    <p><strong>Trenutni broj registrovanih slučajeva u Srbiji je {ConfirmedCases}.</strong> Za ažurne vesti i spisak važnih brojeva telefona posetite portal Ministarstva zdravlja <a href='https://covid19.rs/' target='blank'>covid19.rs</a>.</p>
+    <WarningAlert>
+      <p>Ovaj sajt se više ne ažurira od 19.05.2020 i služi kao istorijska arhiva.</p>
+    </WarningAlert>
+
+    <p><strong>Poslednji broj do kojeg je ovaj sajt azžuriran je 10.733.</strong> Za ažurne vesti i spisak važnih brojeva telefona posetite portal Ministarstva zdravlja <a href='https://covid19.rs/' target='blank'>covid19.rs</a>.</p>
 
     <h2>Modeli i predviđanja</h2>
 
